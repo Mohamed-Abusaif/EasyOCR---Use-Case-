@@ -5,6 +5,11 @@ This is a Simple OCR Text Detection System (and Filtering for the photos) Using 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for text detection and filtering purposes.
+The project consists of two separate files:
+main.py: contains the model with the interface to use it
+cleanimages.py: script to filter the photos based on specific criteria 
+Both files are independat, you can use cleanimage.py to filter the photos you want to put in the input folder
+Then you use the model to detect the text on the photos you input
 
 ### Prerequisites
 
